@@ -317,11 +317,10 @@ footer {
     .first-section {
         grid-template-columns: repeat(1, 1fr);
         position: absolute;
-        width: 334px;
+        width: 500px;
         height: 560px;
-        left: 21px;
+        left: 131px;
         top: 44px;
-
     }
 
     .title-details {
@@ -329,7 +328,7 @@ footer {
         width: 258px;
         height: 378px;
         /* margin-top: 15px; */
-        margin-left: 40px;
+        margin-left: 125px;
         margin-bottom: 111px;
         /* position: relative; */
 
@@ -366,7 +365,7 @@ footer {
         color: #F3F1FF;
         border-radius: 5px;
         /* text-align: center; */
-        left: 48px;
+        left: 68px;
         top: 350px;
         padding-top: 10px;
         font-size: 20px;
@@ -376,7 +375,7 @@ footer {
     .banner {
         margin-top: 410px;
         margin-bottom: 0px;
-        margin-left: 60px;
+        margin-left: 150px;
         padding-bottom: 0px;
         position: absolute;
     }
@@ -397,18 +396,23 @@ footer {
 
     .option-bar {
         background-color: white;
-        width: 210px;
-        height: 176px;
+        width: 300px;
+        height: 196px;
         margin-top: 600px;
-        margin-left: 60px;
+        margin-left: 90px;
         position: absolute;
 
     }
 
+    .options {
+        width: 292px;
+        height: 44px;
+    }
+
     .blog-section {
         margin-top: 850px;
-        width: 210px;
-        margin-left: 10px;
+        width: 250px;
+        margin-left: 80px;
         position: absolute;
     }
 
@@ -416,23 +420,29 @@ footer {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         row-gap: 24px;
+        /* width: 100%; */
+        position: absolute;
 
     }
 
+    .blog {
+        width: 380px;
+        height: 402px;
+    }
+
     footer {
-        position: absolute;
-        width: 100;
+
+        /* width: 100%; */
         height: 512px;
         left: 0px;
-        top: 4310px;
+        top: 4810px;
         background-color: #161616;
         color: #F3F1FF;
-        text-align: center;
+        /* text-align: center; */
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding-top: 0px;
+        /* padding-top: 0px;
+        margin-right: 0px; */
 
     }
 
