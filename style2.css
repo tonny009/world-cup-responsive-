@@ -1,0 +1,19 @@
+.blog {
+    width: 312px;
+    height: 232px;
+    text-align: center;
+}
+
+.upc-image {
+    display: flex;
+    text-align: center;
+
+}
+
+.upc-image img {
+    width: 50%;
+}
+
+.upc-image span {
+    margin-top: 50px;
+}
