@@ -315,11 +315,10 @@ footer {
 /* for mobile device-------- */
 @media only screen and (max-width:688px) {
     .first-section {
-        height: auto;
         grid-template-columns: repeat(1, 1fr);
         position: absolute;
         width: 334px;
-        height: 555px;
+        height: 560px;
         left: 21px;
         top: 44px;
 
@@ -345,6 +344,7 @@ footer {
         color: #FFFFFF;
         margin-bottom: 0px;
         text-align: center;
+        margin-top: 10px;
 
     }
 
@@ -367,14 +367,14 @@ footer {
         border-radius: 5px;
         /* text-align: center; */
         left: 48px;
-        top: 240px;
+        top: 350px;
         padding-top: 10px;
         font-size: 20px;
 
     }
 
     .banner {
-        margin-top: 310px;
+        margin-top: 410px;
         margin-bottom: 0px;
         margin-left: 60px;
         padding-bottom: 0px;
@@ -383,7 +383,7 @@ footer {
 
     .banner img {
         width: 233px;
-        height: 245px;
+        height: 150px;
         /* position: relative; */
     }
 
@@ -478,7 +478,7 @@ footer {
 
 }
 
-/* Tablet device */
+/* -------------------Tablet device -------------------*/
 @media only screen and (min-width:688px) and (max-width:1024px) {
 
     .first-section {
@@ -588,14 +588,12 @@ footer {
     }
 
     footer {
-        position: relative;
-        width: 100;
+        position: absolute;
+        width: 100%;
         left: 0px;
         right: 0px;
         top: 3300px;
         text-align: center;
-        /* display: grid;
-        grid-template-rows: repeat(2, 1fr); */
         justify-content: center;
         align-items: center;
         padding-top: 0px;
@@ -633,8 +631,6 @@ footer {
     }
 
     .social-link {
-        /* display: grid;
-        grid-template-columns: repeat(3, 1fr); */
         column-gap: 40px;
         margin-top: 100px;
         font-size: 30px;
