@@ -317,18 +317,19 @@ footer {
     .first-section {
         grid-template-columns: repeat(1, 1fr);
         position: absolute;
-        width: 500px;
-        height: 560px;
-        left: 131px;
+        width: 680px;
+        height: 660px;
+        /* left: 131px; */
+        margin-left: 490px;
         top: 44px;
     }
 
     .title-details {
         position: absolute;
-        width: 258px;
+        width: 308px;
         height: 378px;
         /* margin-top: 15px; */
-        margin-left: 125px;
+        margin-left: 200px;
         margin-bottom: 111px;
         /* position: relative; */
 
@@ -364,9 +365,8 @@ footer {
         text-decoration: none;
         color: #F3F1FF;
         border-radius: 5px;
-        /* text-align: center; */
-        left: 68px;
-        top: 350px;
+        margin-left: 60px;
+        top: 330px;
         padding-top: 10px;
         font-size: 20px;
 
@@ -375,14 +375,14 @@ footer {
     .banner {
         margin-top: 410px;
         margin-bottom: 0px;
-        margin-left: 150px;
+        margin-left: 250px;
         padding-bottom: 0px;
         position: absolute;
     }
 
     .banner img {
         width: 233px;
-        height: 150px;
+        height: 250px;
         /* position: relative; */
     }
 
@@ -398,21 +398,21 @@ footer {
         background-color: white;
         width: 300px;
         height: 196px;
-        margin-top: 600px;
-        margin-left: 90px;
+        margin-top: 730px;
+        margin-left: 250px;
         position: absolute;
 
     }
 
     .options {
-        width: 292px;
+        width: 352px;
         height: 44px;
     }
 
     .blog-section {
-        margin-top: 850px;
+        margin-top: 1050px;
         width: 250px;
-        margin-left: -15px;
+        margin-left: 65px;
         position: absolute;
     }
 
@@ -426,8 +426,8 @@ footer {
     }
 
     .blog {
-        width: 480px;
-        height: 459px;
+        width: 700px;
+        height: 559px;
     }
 
     footer {
@@ -435,7 +435,7 @@ footer {
         width: 790px;
         height: 412px;
         left: 0px;
-        top: 5310px;
+        top: 6310px;
         /* background-color: #161616;
         color: #F3F1FF; */
         /* text-align: center; */
